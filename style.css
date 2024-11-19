@@ -1,0 +1,272 @@
+body{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./photos/IN-en-20241111-TRIFECTA-perspective_149877ab-fcbd-4e4f-a885-8d6174a1ee81_large.jpg);;
+    background-color:opacity (0, 0, 0, 0.7);
+    margin: 0%;
+    background-size: 1510px 650px;
+    background-repeat: no-repeat;
+    background-color: black;   
+    color: aliceblue;
+    padding:0%;
+}
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 100px; 
+    padding-bottom: 40px;
+    cursor: pointer;
+
+}
+
+nav .img {
+    margin-right: 20px; 
+}
+
+nav .btn {
+    display: flex;
+   
+    gap: 15px; 
+}
+
+nav button {
+    padding: 15px 15px; 
+    
+    background-color: transparent; 
+    color: aliceblue;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+}
+
+nav.img image{
+    width: 17% ;
+    background-color: black;
+    opacity: 0.5;
+
+}
+nav.btn{
+    display: flex;
+    margin-top: 10px;
+}
+.btn .eng:hover{
+    width: 100px;
+    height: 22px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    margin-left: 43px;
+    border-radius: none;
+    padding-top: -20px;
+}
+.btn.sign{
+    width: 115px;
+    height: 60px;
+    background-color :  rgb(255, 0, 0);
+    color:white;
+    font-size: 22px;
+    border-radius: 3px;
+    border: none
+}
+.btn.eng{
+    margin-inline: 22px;
+    padding-top: -20px;
+}
+#englishButton {
+    padding-top: -40px;
+    
+}
+
+.main{
+    text-align: center;
+}
+.main h1{
+    font-size: 40px;
+}
+.main h3{
+    font-size: 24px;
+}
+.main p{
+    font-size: 22px;
+}
+
+    
+.input input{
+    padding: bottom 10px;;
+}
+.input input{
+    width: 400px;
+    height: 58px;
+    border:none;
+    font-size:22px
+}
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    margin: top 0%;
+    padding: 66px;
+
+}
+
+
+.buttons button{
+    width: 1200px;
+    height: 50px;
+    background-color: rgb(66, 62, 62);
+    color:white;
+    font-size: 24px;
+    margin-left: 10%;
+    text-align: left;
+
+}
+ 
+
+
+    
+
+
+
+
+
+.input-2 button{
+    width: 100px; 
+    background-color: red;
+    height: 55px; 
+    font: size 22px; 
+    
+}
+.input-2 p{
+    font-size: 20px;
+    justify-content: center;
+    padding: 12px;
+}
+.input-2{
+    margin-left: 125px;
+}
+.second img{
+    width: 370px;
+}
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    border:none;
+    justify-content: center;
+}
+.buttons h1{
+    margin-left: 150px;
+}
+.choise {
+   margin-left: 50px;
+   text-decoration: none;
+
+}
+.choise button{
+    font: size 25px; 
+    color: white;
+    background-color: rgb(21, 20, 20);
+    width: 4000;
+    border-radius: 5px;
+    height: 45px;
+font-weight: 300;
+}
+.CHOICE-2 button {
+   width: 1000px;
+   background-color:transparent;
+   color: white;
+   border-radius: 3px solid white; 
+   margin-left: 52px;
+   margin-bottom: 25px;
+   margin-top: 10px;
+   text-align: left ;
+   height: 15px;
+   font-size: 15px;
+   justify-content: space-between;
+}
+.CHOICE-2 p{
+    font-size: 30px ;
+    margin-top:320px;
+}
+.second p{
+    font-size: 30px;
+}
+.number p{
+    margin: left 25px; ;
+} 
+
+.choise p{
+    color: white;
+}
+#choice2-button1{
+    height: 30px;
+    width: 80px;
+    border: 2px solid white;
+}
+#choice2-button2{
+    height: 30px;
+    width: 80px;
+    border: 2px solid white;
+}
+
+.input-2{
+    padding-left: 320px;
+    
+   
+}
+.input-2 input{
+    padding: 15px 180px;
+    background-color: transparent;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+ 
+    background-color: #000000;
+}
+
+.footer-lists {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    padding: 0 10px;
+ 
+}
+
+.footer-lists > div {
+    background-color: #000000; 
+    padding: 10px;
+}
+
+.footer p {
+    margin: 5px 0; 
+}
+
+.footer u {
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+
+
+
